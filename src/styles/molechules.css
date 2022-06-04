@@ -1,17 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .cardlogin{
     border: 1px solid #eee;
     border-radius: 8px;
     padding: 20px;
     width: 368px;
     box-shadow: 0px 2px 2px #ccc;
-    margin: auto;
+    position: absolute;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 15%;
+
+ 
 }
 
 .titlelogin{
-    font-size: 16px;
-    text-align: center;
-    margin-top: 15%;
+    font-size: 18px;
     font-family: 'Nunito Sans',sans-serif;
+    position: absolute;
+    margin-left: 47%;
+    margin-top: 12%;
 }
 
 .inplogin{
@@ -47,7 +58,7 @@
     font-size: 1rem;
     line-height: 20px;
     text-indent: initial;
-    background-color: pink;
+    background-color: #348feb;
     border: none;
     border-radius: 8px;
     display: block;
@@ -57,5 +68,23 @@
     transition: background-color 300ms;
     margin-top: 20px;
     margin-bottom: 16px;
-
 }
+
+.buttonlogin:hover {
+    background-color: #9fd2fc;
+  }
+
+p{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Nunito Sans',sans-serif;
+}
+
+ .myImage {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  } 
